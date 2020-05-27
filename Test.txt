@@ -1,0 +1,12 @@
+git config
+git init
+git commit (will open a text editor for changelog in default editor)
+git commit -m"#changelog here#"
+git log
+
+git add <file>...     to update what will be committed
+git restore <file>... to discard changes in working directory (used to be "checkout")
+
+git diff --word-diff #word by word diff
+
+git diff HEAD~1 #back two steps - check multiple revisions
